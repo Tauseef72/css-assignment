@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .button {
+      border: 1px solid #04aa6d;
+      color: white;
+      font-family: verdana, sans-serif;
+      line-height: 27px;
+      white-space: nowrap;
+      word-spacing: 0px;
+      padding: 8px 19px 8px 19px;
+      text-align: center;
+      text-decoration: none solid rgb(225, 255, 225);
+      display: block;
+      font-size: 15px;
+      overflow: hidden;
+      cursor: pointer;
+      background-color: #059862;
+      border-radius: 4px;
+      margin: 4px 100px;
+    }
+    
+    .button1 { float: left;} 
+    .button2 { float: right;}
+    .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+    </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Dropdowns</title>
+  </head>
+  <body>
+    <h1 style="font-size: 42px; font-family: segoe Ui, Arial, sans-serif; line-height: 63px; font-weight: 400;">CSS Dropdowns</h1>
+    <h2>Dropdown Menu</h2>
+    <p>Move the mouse over the button to open the dropdown menu.</p>
+    
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      </div>
+    </div>
+    
+    <p><strong>Note:</strong> We use href="#" for test links. In a real web site this would be URLs.</p>
+
+    <a href="cssnavi-bar.html"><button class="button button1">< Previous</button></a>
+    <a href="cssimggallery.html"><button class="button button2">Next ></button></a>
+    
+    </p>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .button {
+      border: 1px solid #04aa6d;
+      color: white;
+      font-family: verdana, sans-serif;
+      line-height: 27px;
+      white-space: nowrap;
+      word-spacing: 0px;
+      padding: 8px 19px 8px 19px;
+      text-align: center;
+      text-decoration: none solid rgb(225, 255, 225);
+      display: block;
+      font-size: 15px;
+      overflow: hidden;
+      cursor: pointer;
+      background-color: #059862;
+      border-radius: 4px;
+      margin: 4px 100px;
+    }
+    
+    .button1 { float: left;} 
+    .button2 { float: right;}
+    div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+    </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+  </head>
+  <body>
+    <h1 style="font-size: 42px; font-family: segoe Ui, Arial, sans-serif; line-height: 63px; font-weight: 400;">CSS Layout - The position Property</h1>
+    <h2>position: absolute;</h2>
+
+    <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+    
+    <div class="relative">This div element has position: relative;
+      <div class="absolute">This div element has position: absolute;</div>
+    </div>
+
+    <a href="cssmax-width.html"><button class="button button1">< Previous</button></a>
+    <a href="cssz-index.html"><button class="button button2">Next ></button></a>
+    
+    </p>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .button {
+      border: 1px solid #04aa6d;
+      color: white;
+      font-family: verdana, sans-serif;
+      line-height: 27px;
+      white-space: nowrap;
+      word-spacing: 0px;
+      padding: 8px 19px 8px 19px;
+      text-align: center;
+      text-decoration: none solid rgb(225, 255, 225);
+      display: block;
+      font-size: 15px;
+      overflow: hidden;
+      cursor: pointer;
+      background-color: #059862;
+      border-radius: 4px;
+      margin: 4px 100px;
+    }
+    
+    .button1 { float: left;} 
+    .button2 { float: right;}
+    a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+    </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Link</title>
+  </head>
+  <body>
+    <h1 style="font-size: 42px; font-family: segoe Ui, Arial, sans-serif; line-height: 63px; font-weight: 400;">CSS Link</h1>
+    <h2>Styling a link depending on state</h2>
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+    <a href="cssicon.html"><button class="button button1">< Previous</button></a>
+    <a href="csslists.html"><button class="button button2">Next ></button></a>
+    
+    </p>
+  </body>
+</html>
